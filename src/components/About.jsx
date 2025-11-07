@@ -53,17 +53,17 @@ const About = () => {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="grid grid-cols-3 gap-4"
           >
-            <div className="rounded-xl border border-white/10 bg-white/5 p-4">
+            <div className="rounded-xl border border-white/10 bg-gradient-to-b from-white/10 to-white/[0.05] p-5 backdrop-blur">
               <Brain className="h-6 w-6 text-teal-300" />
               <p className="mt-2 text-sm text-slate-300">AI Storytelling</p>
               <p className="text-xs text-slate-400">Interactive narratives that teach</p>
             </div>
-            <div className="rounded-xl border border-white/10 bg-white/5 p-4">
+            <div className="rounded-xl border border-white/10 bg-gradient-to-b from-white/10 to-white/[0.05] p-5 backdrop-blur">
               <Code2 className="h-6 w-6 text-teal-300" />
               <p className="mt-2 text-sm text-slate-300">Full‑stack</p>
               <p className="text-xs text-slate-400">From idea to live app</p>
             </div>
-            <div className="rounded-xl border border-white/10 bg-white/5 p-4">
+            <div className="rounded-xl border border-white/10 bg-gradient-to-b from-white/10 to-white/[0.05] p-5 backdrop-blur">
               <GraduationCap className="h-6 w-6 text-teal-300" />
               <p className="mt-2 text-sm text-slate-300">Education</p>
               <p className="text-xs text-slate-400">Workshops & courses</p>
